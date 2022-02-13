@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Valentine's Day</title>
+    <link rel="icon" href="valentine-fab.png">
+    <link rel="shortcut icon" href="valentine-fab.png">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mstyle.css">
+    <link rel="stylesheet" href="fireworks.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container-fluid container-bg">
+        <audio class="song" controls loop>
+            <source src="music.mp3">
+            Your browser isn't invited for super fun audio time.
+        </audio>
+        <div id="countdown">
+            <span>Hey,</span>
+            <span>are</span>
+            <span>you</span>
+            <span>ready?</span>
+            <span>let's</span>
+            <span>start</span>
+            <span>3</span>
+            <span>2 </span>
+            <span>1</span>
+            <span>Go</span>
+
+        </div>
+
+        <div id="overlay" class="container">
+
+        </div>
+
+        <ul class="lightrope">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="fly">
+            <img src="balloon-frame.png" id="balloon-frame" class="balloon-frame">
+        </div>
+        <img src="./RkcKGLgTj.png" id="balloons1" class="balloons">
+        <img src="./RkcKGLgTj.png" id="balloons2" class="balloons">
+
+        <div id="b1" class="balloon">
+            <h3>B</h3>
+        </div>
+        <div id="b2" class="balloon">
+            <h3>A</h3>
+        </div>
+        <div id="b3" class="balloon">
+            <h3>B</h3>
+
+        </div>
+        <div id="b4" class="balloon">
+            <h3>Y</h3>
+        </div>
+        <div id="back_fire"><canvas id="world"></canvas></div>
+
+        <br><br><br><br><br><br><br>
+
+        <div id="card">
+
+            <div id="card-inside">
+                <div class="wrap">
+
+                    <div class="text">
+
+                        <!-- <div class="prize-block"> -->
+
+                        <h1 id="write"></h1>
+                        <p id="text1">Hlw Pudin</p>
+                        <p id="text2">There will come a time when you will fall for someone you can only love from afar,
+                        </p>
+                        <p id="text3">who you can only wish from the stars above to be yours and who you can only tell
+                        </p>
+                        <p id="text4">'I love you'</p>
+                        <p id="text5">when you are sure he cannot hear it.</p>
+                        <p id="text6">If I can keep loving you in silence, it will not change anything that we have.</p>
+                        <p id="text7">I do not mind loving you in secret for the rest of my life.
+                        </p>
+                        <p id="text8" style="font-style: normal;">Again...&#128522;</p>
+                        <p id="text9">Happy Valentine's Day
+                            <br>
+                            <img src="valentine-fab.png" alt="Birthday Cake">
+                        </p>
+                        <p id="main-text">Hey Pudin,<br>Thanks for being a mesmerizing part of my life.
+                            No metter what happens, you will always find me by your side.
+                            I am going to keep loving you. That is one promise I have made to myself. And my greatest
+                            wish is that you someday get to love me just as much.
+                        </p>
+                        <!-- </div> -->
+                    </div>
+                    <p class="sign">Anik</p>
+                    <button id="close"><i class="fa fa-sign-out" style="font-size:30px"></i></button>
+
+                </div>
+            </div>
+
+            <div id="card-front">
+                <div class="wrap">
+                    <h2 class="text-monospace">Happy Valentine's Day!</h2>
+
+                    <div class="picture"></div>
+                    <p>Feb-14-2022</p>
+                </div>
+                <button id="open"><i class="fa fa-sign-in" style="font-size:30px"></i></button>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+
+
+    <script>
+
+
+        // $(window).load(function() {
+        //     $('.container-bg').fadeIn('fast');
+        // });
+
+        setTimeout(function () {
+
+            $('#countdown').fadeOut();
+
+            off()
+
+        }, 10000);
+
+
+
+        function off() {
+            var audio = $('.song')[0];
+            audio.play();
+
+            $(".lightrope").fadeIn("fast");
+            $("#card").fadeIn("fast");
+            $("#overlay").fadeOut("slow");
+            $("#main-text").fadeOut("fast");
+            $(".sign").fadeOut("fast");
+            $("#text1").fadeOut("fast");
+            $("#text2").fadeOut("fast");
+            $("#text3").fadeOut("fast");
+            $("#text4").fadeOut("fast");
+            $("#text5").fadeOut("fast");
+            $("#text6").fadeOut("fast");
+            $("#text7").fadeOut("fast");
+            $("#text8").fadeOut("fast");
+            $("#text9").fadeOut("fast");
+
+            // $(".sign").fadeOut("fast");
+            $('.balloon-frame').animate({
+                top: -500
+            }, 10000);
+
+            $('.balloons').delay(5000).animate({
+                top: -500
+            }, 10000);
+
+            var px = 1000;
+            width = $(window).width();
+            if (width <= 560)
+                px = 300;
+
+
+            function loopOne() {
+                var randleft = px * Math.random();
+                var randtop = 500 * Math.random();
+                $('#b1').animate({
+                    left: randleft,
+                    bottom: randtop
+                }, 10000, function () {
+                    loopOne();
+                });
+            }
+
+            function loopTwo() {
+                var randleft = px * Math.random();
+                var randtop = 500 * Math.random();
+                $('#b2').animate({
+                    left: randleft,
+                    bottom: randtop
+                }, 10000, function () {
+                    loopTwo();
+                });
+            }
+
+            function loopThree() {
+                var randleft = px * Math.random();
+                var randtop = 500 * Math.random();
+                $('#b3').animate({
+                    left: randleft,
+                    bottom: randtop
+                }, 10000, function () {
+                    loopThree();
+                });
+            }
+
+            function loopFour() {
+                var randleft = px * Math.random();
+                var randtop = 500 * Math.random();
+                $('#b4').animate({
+                    left: randleft,
+                    bottom: randtop
+                }, 10000, function () {
+                    loopFour();
+                });
+            }
+
+            function loopFive() {
+                var randleft = px * Math.random();
+                var randtop = 500 * Math.random();
+                $('#b5').animate({
+                    left: randleft,
+                    bottom: randtop
+                }, 10000, function () {
+                    loopFive();
+                });
+            }
+
+            $('#b1,#b4').addClass('rotate-style-1');
+            $('#b2,#b3').addClass('rotate-style-2');
+            loopOne();
+            loopTwo();
+            loopThree();
+            loopFour();
+        }
+
+
+        function disappear() {
+            setTimeout(function () {
+                $("#close").fadeOut(10);
+                $("#card-front").fadeOut("slow");
+            }, 1000);
+
+            vw = $(window).width();
+
+            $('#b1,#b2,#b3,#b4').stop();
+            $('#b1').attr('id', 'b11');
+            $('#b2').attr('id', 'b22');
+            $('#b3').attr('id', 'b33');
+            $('#b4').attr('id', 'b44');
+
+            $('#b11,#b44').addClass('balloons-rotate-behaviour-one');
+            $('#b33,#b22').addClass('balloons-rotate-behaviour-two');
+
+            function pc() {
+                $('#b11').animate({
+                    top: 52,
+                    left: 31 + "%"
+                }, 500);
+                $('#b22').animate({
+                    top: 52,
+                    left: 39 + "%"
+                }, 500);
+                $('#b33').animate({
+                    top: 52,
+                    left: 48 + "%"
+                }, 500);
+                $('#b44').animate({
+                    top: 52,
+                    left: 56 + "%"
+                }, 500);
+            }
+
+            function mobile() {
+                $('#b11').animate({
+                    top: 70,
+                    left: 6 + "%"
+                }, 500);
+                $('#b22').animate({
+                    top: 70,
+                    left: 29 + "%"
+                }, 500);
+                $('#b33').animate({
+                    top: 70,
+                    left: 52 + "%"
+                }, 500);
+                $('#b44').animate({
+                    top: 70,
+                    left: 75 + "%"
+                }, 500);
+            }
+            if (vw <= 500)
+                mobile();
+            else
+                pc();
+        }
+
+        function appear() {
+            $("#card-front").fadeIn("fast");
+        }
+
+        function type() {
+
+            function fadetext() {
+                $("#main-text").fadeOut("fast");
+                $("#close").fadeOut("fast");
+                $(".sign").fadeOut("fast");
+                $("#write").fadeOut(1000, function () {
+                    $("#text1").fadeIn(2500, function () {
+                        $("#text1").fadeOut(2500, function () {
+                            $("#text2").fadeIn(2500, function () {
+                                $("#text2").fadeOut(5200, function () {
+                                    $("#text3").fadeIn(5000, function () {
+                                        $("#text3").fadeOut(5000, function () {
+                                            $("#text4").fadeIn(5000, function () {
+                                                $("#text4").fadeOut(5000, function () {
+                                                    $("#text5").fadeIn(5000, function () {
+                                                        $("#text5").fadeOut(5000, function () {
+                                                            $("#text6").fadeIn(5000, function () {
+                                                                $("#text6").fadeOut(5000, function () {
+                                                                    $("#text7").fadeIn(2500, function () {
+                                                                        $("#text7").fadeOut(2500, function () {
+                                                                            $("#text8").fadeIn(2500, function () {
+                                                                                $("#text8").fadeOut(2000, function () {
+                                                                                    $("#text9").fadeIn(2000, function () {
+                                                                                        $("#text9").fadeOut(2000, function () {
+                                                                                            $("#main-text").fadeIn(2500);
+                                                                                            $(".sign").fadeIn(2500);
+                                                                                            $("#close").fadeIn(2500);
+                                                                                        });
+                                                                                    });
+                                                                                });
+                                                                            });
+                                                                        });
+                                                                    });
+                                                                });
+                                                            });
+                                                        });
+                                                    });
+                                                });
+                                            });
+                                        });
+                                    });
+                                });
+                            });
+                        });
+                    });
+                });
+
+
+            }
+            var i = 0;
+
+            var dataText = ["Dear Pudin,",
+                "From the day I met you,", "I realized that you are different.", "You have such a kind of heart that exists very rarely.",
+                "I wish you will have good days.", "May the hope of your mind be fulfilled."
+            ];
+            // $('h1').start();
+
+            function typeWriter(text, i, fnCallback) {
+
+                if (i < (text.length)) {
+                    document.querySelector("h1").innerHTML = text.substring(0, i + 1) + '<span aria-hidden="true"></span>';
+                    setTimeout(function () {
+                        typeWriter(text, i + 1, fnCallback)
+                    }, 110);
+                } else if (typeof fnCallback == 'function') {
+                    setTimeout(fnCallback, 700);
+                }
+            }
+
+            function StartTextAnimation(i) {
+                if (i == dataText.length)
+                    return fadetext();
+
+                if (typeof dataText[i] == 'undefined') {
+                    setTimeout(function () {
+                        StartTextAnimation(0);
+                    }, 20000);
+                }
+                if (i < dataText[i].length) {
+                    typeWriter(dataText[i], 0, function () {
+                        StartTextAnimation(i + 1);
+
+                    });
+                }
+            }
+            StartTextAnimation(0);
+        }
+
+        (function () {
+            function $(id) {
+                return document.getElementById(id);
+            }
+
+            var card = $('card'),
+                openB = $('open'),
+                closeB = $('close'),
+                timer = null;
+            console.log('wat', card);
+            openB.addEventListener('click', function () {
+
+                card.setAttribute('class', 'open-half');
+                if (timer) clearTimeout(timer);
+                timer = setTimeout(function () {
+                    card.setAttribute('class', 'open-fully');
+                    timer = null;
+                }, 1000);
+
+                disappear();
+                // type();
+
+                setTimeout(function () {
+                    type();
+                }, 1000);
+            });
+
+            closeB.addEventListener('click', function () {
+                card.setAttribute('class', 'close-half');
+                if (timer) clearTimerout(timer);
+                timer = setTimeout(function () {
+                    card.setAttribute('class', '');
+                    timer = null;
+                }, 1000);
+                appear();
+            });
+
+        }());
+
+
+
+
+
+        // fireworks css 
+        var COLORS, Confetti, NUM_CONFETTI, PI_2, canvas, confetti, context, drawCircle, i, range, resizeWindow, xpos;
+
+        NUM_CONFETTI = 350;
+
+        COLORS = [[85, 71, 106], [174, 61, 99], [219, 56, 83], [244, 92, 68], [248, 182, 70]];
+
+        PI_2 = 2 * Math.PI;
+
+        canvas = document.getElementById("world");
+
+        context = canvas.getContext("2d");
+
+        window.w = 0;
+
+        window.h = 0;
+
+        resizeWindow = function () {
+            window.w = canvas.width = window.innerWidth;
+            return window.h = canvas.height = window.innerHeight;
+        };
+
+        window.addEventListener('resize', resizeWindow, false);
+
+        window.onload = function () {
+            return setTimeout(resizeWindow, 0);
+        };
+
+        range = function (a, b) {
+            return (b - a) * Math.random() + a;
+        };
+
+        drawCircle = function (x, y, r, style) {
+            context.beginPath();
+            context.arc(x, y, r, 0, PI_2, false);
+            context.fillStyle = style;
+            return context.fill();
+        };
+
+        xpos = 0.5;
+
+        document.onmousemove = function (e) {
+            return xpos = e.pageX / w;
+        };
+
+        window.requestAnimationFrame = (function () {
+            return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (callback) {
+                return window.setTimeout(callback, 1000 / 60);
+            };
+        })();
+
+        Confetti = class Confetti {
+            constructor() {
+                this.style = COLORS[~~range(0, 5)];
+                this.rgb = `rgba(${this.style[0]},${this.style[1]},${this.style[2]}`;
+                this.r = ~~range(2, 6);
+                this.r2 = 2 * this.r;
+                this.replace();
+            }
+
+            replace() {
+                this.opacity = 0;
+                this.dop = 0.03 * range(1, 4);
+                this.x = range(-this.r2, w - this.r2);
+                this.y = range(-20, h - this.r2);
+                this.xmax = w - this.r;
+                this.ymax = h - this.r;
+                this.vx = range(0, 2) + 8 * xpos - 5;
+                return this.vy = 0.7 * this.r + range(-1, 1);
+            }
+
+            draw() {
+                var ref;
+                this.x += this.vx;
+                this.y += this.vy;
+                this.opacity += this.dop;
+                if (this.opacity > 1) {
+                    this.opacity = 1;
+                    this.dop *= -1;
+                }
+                if (this.opacity < 0 || this.y > this.ymax) {
+                    this.replace();
+                }
+                if (!((0 < (ref = this.x) && ref < this.xmax))) {
+                    this.x = (this.x + this.xmax) % this.xmax;
+                }
+                return drawCircle(~~this.x, ~~this.y, this.r, `${this.rgb},${this.opacity})`);
+            }
+
+        };
+
+        confetti = (function () {
+            var j, ref, results;
+            results = [];
+            for (i = j = 1, ref = NUM_CONFETTI; (1 <= ref ? j <= ref : j >= ref); i = 1 <= ref ? ++j : --j) {
+                results.push(new Confetti());
+            }
+            return results;
+        })();
+
+        window.step = function () {
+            var c, j, len, results;
+            requestAnimationFrame(step);
+            context.clearRect(0, 0, w, h);
+            results = [];
+            for (j = 0, len = confetti.length; j < len; j++) {
+                c = confetti[j];
+                results.push(c.draw());
+            }
+            return results;
+        };
+
+        step();
+    </script>
+
+
+</body>
+
+</html>
